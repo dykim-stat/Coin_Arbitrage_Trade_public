@@ -1,7 +1,10 @@
 ---
-output:
-  pdf_document: default
-  html_document: default
+output: 
+  pdf_document:
+    latex_engine: xelatex
+mainfont: NanumGothic
+editor_options: 
+  chunk_output_type: console
 ---
 abcd
 $$ \sum_i^n \beta_i $$
